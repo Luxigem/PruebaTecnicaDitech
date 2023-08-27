@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "88C9E7CF-0F73-4D79-AC35-081AB5431964",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PruebaTecnica.xcodeproj",
+        "identifier" : "64596A652A990A1400775CF0",
+        "name" : "PruebaTecnicaTests"
+      }
+    }
+  ],
+  "version" : 1
+}

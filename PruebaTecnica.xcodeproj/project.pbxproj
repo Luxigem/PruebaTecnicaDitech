@@ -9,24 +9,32 @@
 /* Begin PBXBuildFile section */
 		64596A542A990A1200775CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A532A990A1200775CF0 /* AppDelegate.swift */; };
 		64596A562A990A1200775CF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A552A990A1200775CF0 /* SceneDelegate.swift */; };
-		64596A582A990A1200775CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A572A990A1200775CF0 /* ViewController.swift */; };
+		64596A582A990A1200775CF0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A572A990A1200775CF0 /* MenuViewController.swift */; };
 		64596A5B2A990A1200775CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64596A592A990A1200775CF0 /* Main.storyboard */; };
 		64596A5D2A990A1400775CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64596A5C2A990A1400775CF0 /* Assets.xcassets */; };
 		64596A602A990A1400775CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64596A5E2A990A1400775CF0 /* LaunchScreen.storyboard */; };
-		64596A6B2A990A1500775CF0 /* PruebaTecnicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A6A2A990A1500775CF0 /* PruebaTecnicaTests.swift */; };
-		64596A752A990A1500775CF0 /* PruebaTecnicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A742A990A1500775CF0 /* PruebaTecnicaUITests.swift */; };
-		64596A772A990A1500775CF0 /* PruebaTecnicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A762A990A1500775CF0 /* PruebaTecnicaUITestsLaunchTests.swift */; };
+		64596A6B2A990A1500775CF0 /* MenuPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A6A2A990A1500775CF0 /* MenuPresenterTests.swift */; };
+		64596A872A990B2300775CF0 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A862A990B2300775CF0 /* WalletViewController.swift */; };
+		64596A892A990B4C00775CF0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A882A990B4C00775CF0 /* DetailsViewController.swift */; };
+		64596A8C2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A8A2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.swift */; };
+		64596A8D2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64596A8B2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.xib */; };
+		64596A8F2A99584700775CF0 /* CurrencyInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A8E2A99584700775CF0 /* CurrencyInformation.swift */; };
+		64596A912A99586100775CF0 /* CurrencyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A902A99586100775CF0 /* CurrencyPresenter.swift */; };
+		64596A932A99589B00775CF0 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64596A922A99589B00775CF0 /* CurrencyModel.swift */; };
+		649EE5312A9AB7FD009F6234 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EE5302A9AB7FD009F6234 /* MenuPresenter.swift */; };
+		649EE5342A9AB92E009F6234 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EE5332A9AB92E009F6234 /* MenuModel.swift */; };
+		649EE53A2A9ABD26009F6234 /* WalletPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EE5392A9ABD26009F6234 /* WalletPresenter.swift */; };
+		649EE53C2A9ABD7E009F6234 /* WalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EE53B2A9ABD7E009F6234 /* WalletModel.swift */; };
+		649EE5442A9ACFB6009F6234 /* WalletPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EE5432A9ACFB6009F6234 /* WalletPresenterTests.swift */; };
+		64D435AD2A9BA7B300578430 /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D435AC2A9BA7B300578430 /* URLProtocolMock.swift */; };
+		64D435AF2A9BA83F00578430 /* CurrencyPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D435AE2A9BA83F00578430 /* CurrencyPresenterTests.swift */; };
+		64D435B12A9BA97000578430 /* CurrencyPresenterDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D435B02A9BA97000578430 /* CurrencyPresenterDelegateMock.swift */; };
+		64D435B62A9BBD3500578430 /* KWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D435B52A9BBD3500578430 /* KWallet.swift */; };
+		64D435B82A9BBEF700578430 /* KCryptoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D435B72A9BBEF700578430 /* KCryptoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		64596A672A990A1500775CF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64596A482A990A1200775CF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64596A4F2A990A1200775CF0;
-			remoteInfo = PruebaTecnica;
-		};
-		64596A712A990A1500775CF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 64596A482A990A1200775CF0 /* Project object */;
 			proxyType = 1;
@@ -39,16 +47,31 @@
 		64596A502A990A1200775CF0 /* PruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64596A532A990A1200775CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64596A552A990A1200775CF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64596A572A990A1200775CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64596A572A990A1200775CF0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		64596A5A2A990A1200775CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64596A5C2A990A1400775CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64596A5F2A990A1400775CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64596A612A990A1400775CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64596A662A990A1500775CF0 /* PruebaTecnicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64596A6A2A990A1500775CF0 /* PruebaTecnicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaTests.swift; sourceTree = "<group>"; };
-		64596A702A990A1500775CF0 /* PruebaTecnicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64596A742A990A1500775CF0 /* PruebaTecnicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaUITests.swift; sourceTree = "<group>"; };
-		64596A762A990A1500775CF0 /* PruebaTecnicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64596A6A2A990A1500775CF0 /* MenuPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterTests.swift; sourceTree = "<group>"; };
+		64596A862A990B2300775CF0 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		64596A882A990B4C00775CF0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		64596A8A2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		64596A8B2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoCurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		64596A8E2A99584700775CF0 /* CurrencyInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInformation.swift; sourceTree = "<group>"; };
+		64596A902A99586100775CF0 /* CurrencyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPresenter.swift; sourceTree = "<group>"; };
+		64596A922A99589B00775CF0 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		649EE5302A9AB7FD009F6234 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		649EE5332A9AB92E009F6234 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		649EE5392A9ABD26009F6234 /* WalletPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletPresenter.swift; sourceTree = "<group>"; };
+		649EE53B2A9ABD7E009F6234 /* WalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModel.swift; sourceTree = "<group>"; };
+		649EE5432A9ACFB6009F6234 /* WalletPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletPresenterTests.swift; sourceTree = "<group>"; };
+		64D435AC2A9BA7B300578430 /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
+		64D435AE2A9BA83F00578430 /* CurrencyPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPresenterTests.swift; sourceTree = "<group>"; };
+		64D435B02A9BA97000578430 /* CurrencyPresenterDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPresenterDelegateMock.swift; sourceTree = "<group>"; };
+		64D435B22A9BB98B00578430 /* SchemePruebaTecnica.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SchemePruebaTecnica.xctestplan; sourceTree = "<group>"; };
+		64D435B52A9BBD3500578430 /* KWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWallet.swift; sourceTree = "<group>"; };
+		64D435B72A9BBEF700578430 /* KCryptoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCryptoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +89,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64596A6D2A990A1500775CF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +97,6 @@
 			children = (
 				64596A522A990A1200775CF0 /* PruebaTecnica */,
 				64596A692A990A1500775CF0 /* PruebaTecnicaTests */,
-				64596A732A990A1500775CF0 /* PruebaTecnicaUITests */,
 				64596A512A990A1200775CF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +106,6 @@
 			children = (
 				64596A502A990A1200775CF0 /* PruebaTecnica.app */,
 				64596A662A990A1500775CF0 /* PruebaTecnicaTests.xctest */,
-				64596A702A990A1500775CF0 /* PruebaTecnicaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +115,13 @@
 			children = (
 				64596A532A990A1200775CF0 /* AppDelegate.swift */,
 				64596A552A990A1200775CF0 /* SceneDelegate.swift */,
-				64596A572A990A1200775CF0 /* ViewController.swift */,
-				64596A592A990A1200775CF0 /* Main.storyboard */,
-				64596A5C2A990A1400775CF0 /* Assets.xcassets */,
-				64596A5E2A990A1400775CF0 /* LaunchScreen.storyboard */,
 				64596A612A990A1400775CF0 /* Info.plist */,
+				64D435B22A9BB98B00578430 /* SchemePruebaTecnica.xctestplan */,
+				649EE52D2A9AB778009F6234 /* Menu */,
+				649EE5352A9ABA79009F6234 /* Wallet */,
+				649EE53D2A9AC055009F6234 /* CryptoDetails */,
+				649EE52C2A9AB6C2009F6234 /* Xibs */,
+				64596A5C2A990A1400775CF0 /* Assets.xcassets */,
 			);
 			path = PruebaTecnica;
 			sourceTree = "<group>";
@@ -113,18 +129,161 @@
 		64596A692A990A1500775CF0 /* PruebaTecnicaTests */ = {
 			isa = PBXGroup;
 			children = (
-				64596A6A2A990A1500775CF0 /* PruebaTecnicaTests.swift */,
+				649EE5412A9ACBE3009F6234 /* MenuTests */,
+				649EE5422A9ACF7A009F6234 /* WalletTests */,
+				64D435AB2A9BA78800578430 /* CryptoDetailsTests */,
+				64D435AA2A9BA75A00578430 /* Mocks */,
 			);
 			path = PruebaTecnicaTests;
 			sourceTree = "<group>";
 		};
-		64596A732A990A1500775CF0 /* PruebaTecnicaUITests */ = {
+		649EE52C2A9AB6C2009F6234 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				64596A742A990A1500775CF0 /* PruebaTecnicaUITests.swift */,
-				64596A762A990A1500775CF0 /* PruebaTecnicaUITestsLaunchTests.swift */,
+				64596A5E2A990A1400775CF0 /* LaunchScreen.storyboard */,
+				64596A592A990A1200775CF0 /* Main.storyboard */,
+				64596A8B2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.xib */,
 			);
-			path = PruebaTecnicaUITests;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		649EE52D2A9AB778009F6234 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				649EE52E2A9AB789009F6234 /* View */,
+				649EE52F2A9AB792009F6234 /* Presenter */,
+				649EE5322A9AB8E3009F6234 /* Model */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		649EE52E2A9AB789009F6234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64596A572A990A1200775CF0 /* MenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649EE52F2A9AB792009F6234 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5302A9AB7FD009F6234 /* MenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		649EE5322A9AB8E3009F6234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5332A9AB92E009F6234 /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649EE5352A9ABA79009F6234 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5362A9ABA9C009F6234 /* View */,
+				649EE5372A9ABAAB009F6234 /* Presenter */,
+				649EE5382A9ABAB6009F6234 /* Model */,
+				64D435B52A9BBD3500578430 /* KWallet.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		649EE5362A9ABA9C009F6234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64596A862A990B2300775CF0 /* WalletViewController.swift */,
+				64596A8A2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649EE5372A9ABAAB009F6234 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5392A9ABD26009F6234 /* WalletPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		649EE5382A9ABAB6009F6234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				649EE53B2A9ABD7E009F6234 /* WalletModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649EE53D2A9AC055009F6234 /* CryptoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5402A9AC07A009F6234 /* View */,
+				649EE53F2A9AC074009F6234 /* Presenter */,
+				649EE53E2A9AC06F009F6234 /* Model */,
+				64D435B72A9BBEF700578430 /* KCryptoDetails.swift */,
+			);
+			path = CryptoDetails;
+			sourceTree = "<group>";
+		};
+		649EE53E2A9AC06F009F6234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64596A8E2A99584700775CF0 /* CurrencyInformation.swift */,
+				64596A922A99589B00775CF0 /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649EE53F2A9AC074009F6234 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				64596A902A99586100775CF0 /* CurrencyPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		649EE5402A9AC07A009F6234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64596A882A990B4C00775CF0 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649EE5412A9ACBE3009F6234 /* MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				64596A6A2A990A1500775CF0 /* MenuPresenterTests.swift */,
+			);
+			path = MenuTests;
+			sourceTree = "<group>";
+		};
+		649EE5422A9ACF7A009F6234 /* WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				649EE5432A9ACFB6009F6234 /* WalletPresenterTests.swift */,
+			);
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		64D435AA2A9BA75A00578430 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				64D435AC2A9BA7B300578430 /* URLProtocolMock.swift */,
+				64D435B02A9BA97000578430 /* CurrencyPresenterDelegateMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		64D435AB2A9BA78800578430 /* CryptoDetailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D435AE2A9BA83F00578430 /* CurrencyPresenterTests.swift */,
+			);
+			path = CryptoDetailsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +324,6 @@
 			productReference = 64596A662A990A1500775CF0 /* PruebaTecnicaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		64596A6F2A990A1500775CF0 /* PruebaTecnicaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64596A802A990A1500775CF0 /* Build configuration list for PBXNativeTarget "PruebaTecnicaUITests" */;
-			buildPhases = (
-				64596A6C2A990A1500775CF0 /* Sources */,
-				64596A6D2A990A1500775CF0 /* Frameworks */,
-				64596A6E2A990A1500775CF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				64596A722A990A1500775CF0 /* PBXTargetDependency */,
-			);
-			name = PruebaTecnicaUITests;
-			productName = PruebaTecnicaUITests;
-			productReference = 64596A702A990A1500775CF0 /* PruebaTecnicaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +338,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					64596A652A990A1400775CF0 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 64596A4F2A990A1200775CF0;
-					};
-					64596A6F2A990A1500775CF0 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 64596A4F2A990A1200775CF0;
 					};
@@ -221,7 +358,6 @@
 			targets = (
 				64596A4F2A990A1200775CF0 /* PruebaTecnica */,
 				64596A652A990A1400775CF0 /* PruebaTecnicaTests */,
-				64596A6F2A990A1500775CF0 /* PruebaTecnicaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,17 +370,11 @@
 				64596A602A990A1400775CF0 /* LaunchScreen.storyboard in Resources */,
 				64596A5D2A990A1400775CF0 /* Assets.xcassets in Resources */,
 				64596A5B2A990A1200775CF0 /* Main.storyboard in Resources */,
+				64596A8D2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		64596A642A990A1400775CF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64596A6E2A990A1500775CF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +388,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64596A582A990A1200775CF0 /* ViewController.swift in Sources */,
+				64D435B82A9BBEF700578430 /* KCryptoDetails.swift in Sources */,
+				64596A582A990A1200775CF0 /* MenuViewController.swift in Sources */,
+				64596A8C2A990BDD00775CF0 /* CryptoCurrencyTableViewCell.swift in Sources */,
+				649EE5312A9AB7FD009F6234 /* MenuPresenter.swift in Sources */,
+				64596A872A990B2300775CF0 /* WalletViewController.swift in Sources */,
 				64596A542A990A1200775CF0 /* AppDelegate.swift in Sources */,
+				649EE53A2A9ABD26009F6234 /* WalletPresenter.swift in Sources */,
+				64D435B62A9BBD3500578430 /* KWallet.swift in Sources */,
 				64596A562A990A1200775CF0 /* SceneDelegate.swift in Sources */,
+				649EE53C2A9ABD7E009F6234 /* WalletModel.swift in Sources */,
+				64596A932A99589B00775CF0 /* CurrencyModel.swift in Sources */,
+				649EE5342A9AB92E009F6234 /* MenuModel.swift in Sources */,
+				64596A892A990B4C00775CF0 /* DetailsViewController.swift in Sources */,
+				64596A912A99586100775CF0 /* CurrencyPresenter.swift in Sources */,
+				64596A8F2A99584700775CF0 /* CurrencyInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64596A6B2A990A1500775CF0 /* PruebaTecnicaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64596A6C2A990A1500775CF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64596A752A990A1500775CF0 /* PruebaTecnicaUITests.swift in Sources */,
-				64596A772A990A1500775CF0 /* PruebaTecnicaUITestsLaunchTests.swift in Sources */,
+				64596A6B2A990A1500775CF0 /* MenuPresenterTests.swift in Sources */,
+				64D435AF2A9BA83F00578430 /* CurrencyPresenterTests.swift in Sources */,
+				64D435B12A9BA97000578430 /* CurrencyPresenterDelegateMock.swift in Sources */,
+				64D435AD2A9BA7B300578430 /* URLProtocolMock.swift in Sources */,
+				649EE5442A9ACFB6009F6234 /* WalletPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +425,6 @@
 			isa = PBXTargetDependency;
 			target = 64596A4F2A990A1200775CF0 /* PruebaTecnica */;
 			targetProxy = 64596A672A990A1500775CF0 /* PBXContainerItemProxy */;
-		};
-		64596A722A990A1500775CF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64596A4F2A990A1200775CF0 /* PruebaTecnica */;
-			targetProxy = 64596A712A990A1500775CF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -522,40 +654,6 @@
 			};
 			name = Release;
 		};
-		64596A812A990A1500775CF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = miguelrod.PruebaTecnicaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PruebaTecnica;
-			};
-			name = Debug;
-		};
-		64596A822A990A1500775CF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = miguelrod.PruebaTecnicaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PruebaTecnica;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,15 +680,6 @@
 			buildConfigurations = (
 				64596A7E2A990A1500775CF0 /* Debug */,
 				64596A7F2A990A1500775CF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		64596A802A990A1500775CF0 /* Build configuration list for PBXNativeTarget "PruebaTecnicaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64596A812A990A1500775CF0 /* Debug */,
-				64596A822A990A1500775CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  PruebaTecnica
 //
-//  Created by Manuel on 8/25/23.
+//  Created by Miguel on 8/25/23.
 //
 
 import UIKit
